@@ -20,7 +20,7 @@ export const Projects = () => {
                 description:
                   "Built a cross-compatible mobile app connecting women drivers and passengers in a safe, female-only environment. I helped develop the UI components in the frontend and collaborated with backend developers with user verification and database integration.",
                 tech: ["React Native", "Node.js", "PostgreSQL"],
-                projectLink: "#",
+                projectLink: "https://github.com/C22380473/taxi-app-women",
                 github: "https://github.com/C22380473/taxi-app-women",
               },
               {
@@ -28,7 +28,7 @@ export const Projects = () => {
                 description:
                   "Developed an Android mobile CRUD app that lets users log and categorise their game collections. Focused on intuitive design and local storage to deliver a clean, user-friendly experience.",
                 tech: ["Kotlin (Java)", "Android Studio", "RoomDB"],
-                projectLink: "#",
+                projectLink: "https://github.com/C22380473/game-tracker",
                 github: "https://github.com/C22380473/game-tracker",
               },
               {
@@ -36,7 +36,7 @@ export const Projects = () => {
                 description:
                   "Created a full-stack recipe-sharing platform with secure login and user-generated content. I designed RESTful routes, implemented backend logic, and managed data storage in MongoDB, contributing to smooth team Git workflows and version control.",
                 tech: ["Bootstrap", "MongoDB", "Node.js", "Express.js"],
-                projectLink: "#",
+                projectLink: "https://github.com/C22380473/webdevproject",
                 github: "https://github.com/C22380473/webdevproject",
               },
               {
@@ -44,7 +44,7 @@ export const Projects = () => {
                 description:
                   "Built a multilingual travel website demonstrating globalisation and localisation techniques. I implemented Flask routing, Bootstrap-based UI, and dynamic language switching using Flask-Babel.",
                 tech: ["HTML/CSS/JavaScript", "Flask", "Jinja", "Python"],
-                projectLink: "#",
+                projectLink: "https://github.com/C22380473/travel-website-localisation",
                 github:
                   "https://github.com/C22380473/travel-website-localisation",
               },
