@@ -12,7 +12,7 @@ export const Projects = () => {
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
-          <div className="grid grid-colds-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
               <h3 className="text-xl font-bold mb-2">
                 🚖 "Her Way": Women-Only Taxi App
@@ -42,7 +42,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="View GitHub repository"
-                  className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-25 py-1.5 rounded-lg hover:bg-purple-500/10 hover:border-purple-500 transition-all hover:-translate-y-0.5"
+                  className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg hover:bg-purple-500/10 hover:border-purple-500 transition-all hover:-translate-y-0.5"
                 >
                   <Github className="w-4 h-4 text-purple-400" />
                   <span className="text-gray-300 text-sm font-medium">
@@ -50,6 +50,7 @@ export const Projects = () => {
                   </span>
                 </a>
               </div>
+              
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
@@ -110,7 +111,7 @@ export const Projects = () => {
                   )
                 )}
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                 <a className="text-purple-400 transition-colors my-4">
                   View Project ➔{" "}
                 </a>
@@ -119,7 +120,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="View GitHub repository"
-                  className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-25 py-1.5 rounded-lg hover:bg-purple-500/10 hover:border-purple-500 transition-all hover:-translate-y-0.5"
+                  className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg hover:bg-purple-500/10 hover:border-purple-500 transition-all hover:-translate-y-0.5"
                 >
                   <Github className="w-4 h-4 text-purple-400" />
                   <span className="text-gray-300 text-sm font-medium">
@@ -151,7 +152,7 @@ export const Projects = () => {
                   )
                 )}
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                 <a className="text-purple-400 transition-colors my-4">
                   View Project ➔{" "}
                 </a>
@@ -160,7 +161,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="View GitHub repository"
-                  className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-25 py-1.5 rounded-lg hover:bg-purple-500/10 hover:border-purple-500 transition-all hover:-translate-y-0.5"
+                  className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg hover:bg-purple-500/10 hover:border-purple-500 transition-all hover:-translate-y-0.5"
                 >
                   <Github className="w-4 h-4 text-purple-400" />
                   <span className="text-gray-300 text-sm font-medium">
